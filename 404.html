@@ -5,8 +5,11 @@
   <title>Redirecting...</title>
   <meta http-equiv="refresh" content="0; URL='/'">
   <script type="text/javascript">
-    var path = window.location.pathname;
-    window.location.replace('/?' + path);
+    var pathname = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+    var newPath = '/' + pathname.substring(1) + search + hash;
+    window.location.replace(newPath);
   </script>
 </head>
 <body>

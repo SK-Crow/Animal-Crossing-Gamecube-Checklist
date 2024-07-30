@@ -3,13 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Redirecting...</title>
-  <meta http-equiv="refresh" content="0; URL='/'">
   <script type="text/javascript">
-    var pathname = window.location.pathname;
-    var search = window.location.search;
-    var hash = window.location.hash;
-    var newPath = '/' + pathname.substring(1) + search + hash;
-    window.location.replace(newPath);
+    // Check if we're not at the root
+    if (window.location.pathname !== '/') {
+      // Construct the new path excluding the initial slash
+      var newPath = window.location.pathname.substring(1);
+      // Redirect to the new path using hash to prevent server request
+      window.location.replace('/#/' + newPath + window.location.search + window.location.hash);
+    }
   </script>
 </head>
 <body>

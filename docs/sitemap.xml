@@ -7,31 +7,6 @@
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
 >
   <url>
-    <loc>https://acgc.sterner.digital//home</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://acgc.sterner.digital//collections</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://acgc.sterner.digital//museum</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://acgc.sterner.digital//passport</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://acgc.sterner.digital//about</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://acgc.sterner.digital//paintings</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -193,6 +168,26 @@
   </url>
   <url>
     <loc>https://acgc.sterner.digital//daily/daily-fossil</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acgc.sterner.digital//home</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acgc.sterner.digital//about</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acgc.sterner.digital//collections</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://acgc.sterner.digital//passport</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

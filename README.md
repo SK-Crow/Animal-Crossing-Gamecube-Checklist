@@ -3,9 +3,7 @@ This project aims to be a good quality tracker for the Gamecube version of Anima
 
 Live site: https://acgc.sterner.digital/
 
-Android App requires you join the closed test: https://groups.google.com/g/sternerdigital
-
-Then accept the terms here: https://play.google.com/apps/testing/digital.sterner.checklist
+Android App: https://play.google.com/store/apps/details?id=digital.sterner.checklist
 
 # Roadmap
 ACGC has a [Github Project](https://github.com/users/SK-Crow/projects/4) with a to-do list.  This is effectively what I'm using for a roadmap.  No intention to publish the app or remove the WIP popup until everything here is completed.
